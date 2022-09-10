@@ -1,0 +1,25 @@
+:root {
+    --header-color: #CB2424;
+
+}
+
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--header-color);
+}
+
+#no-button {
+    color: red;
+    border-style: solid;
+    border-color: red;
+    background-color: transparent;
+}
+
+#yes-button {
+    color: green;
+    border-style: solid;
+    border-color: green;
+    background-color: transparent;
+}
+
