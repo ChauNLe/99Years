@@ -14,6 +14,7 @@ class App{
         this.title = name;
         this.questionCard = document.getElementById("question-page");
         this.continueButton = document.getElementById("continue");
+        this.gameIntro = document.getElementById("game-intro");
     }
 
     getTitle() {
@@ -27,7 +28,7 @@ class App{
         $("#continue").on("click", (evt) => {
             evt.preventDefault();
             this.questionCard.classList.remove('d-none');
-            this.continueButton.classList.add('d-none');
+            this.gameIntro.classList.add('d-none');
         })
     }
 }
