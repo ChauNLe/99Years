@@ -40,30 +40,50 @@ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       </ul>
     </nav>
 
+    <div id = "scoreboard" class="card col-3 mx-auto">
+      <div class="card-body">
+        <p>Environment</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-environment" role="progressbar" aria-label="enviroment progress-bar-striped" style="width: 25%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="20"></div>
+        </div>
+        <p>Quality of Life</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-quality-of-life" role="progressbar" aria-label="quality of life progress-bar-striped" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20"></div>
+        </div>
+        <p>Economy</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-economy" role="progressbar" aria-label="economy progress-bar-striped" style="width: 75%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20"></div>
+        </div>
+        <p>Health</p>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-health" role="progressbar" aria-label="health progress-bar-striped" style="width: 100%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="20"></div>
+        </div>
+      </div>
+    </div>
+
     <div id = "game-intro" class="card text-center col-6 mx-auto">
       <div class="card-body">
         <p class="card-text">You have been elected as the king of Narnia.</p>
         <p class="card-text">Now you will have to handle and make decisions regarding environmental issues presented in your kingdom.</p>
         <p class="card-text">The kingdom will either live or die in your hands!</p>
         <p class="card-text">Make good decisions and good luck!</p> 
-        </p>
         <button id = "continue" type="button" class="btn btn-primary btn-lg">Continue</button>
       </div>
     </div>
 
-    <main>
-      <div id = "question-page" class="card text-center d-none col-6 mx-auto">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <button id = "no-button" type="button" class="btn btn-primary btn-lg">No</button>
-          <button id = "yes-button" type="button" class="btn btn-secondary btn-lg">Yes</button>
-        </div>
-      </div>
-    </main>
+    
+    <div id = "question-page" class="card text-center d-none col-6 mx-auto">
+      <div class="card-header">
+        Featured
+       </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <button id = "no-button" type="button" class="btn btn-primary btn-lg">No</button>
+         <button id = "yes-button" type="button" class="btn btn-secondary btn-lg">Yes</button>
+       </div>
+    </div>
+  
 
 </body>
 </html>

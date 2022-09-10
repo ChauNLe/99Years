@@ -8,13 +8,17 @@ body {
 }
 
 #game-intro {
-    background-color: transparent;
-    color: antiquewhite;
+    background-color: rgba(26, 24, 24, 0.5);
+    color:antiquewhite;
+    position: relative;
+    top: 100px;
 }
 
 #question-page {
-    background-color: transparent;
+    background-color: rgba(26, 24, 24, 0.5);
     color: antiquewhite;
+    position: relative;
+    top: 100px;
 }
 
 header {
@@ -42,4 +46,17 @@ header {
     border-style: solid;
     border-color: lightgreen;
     background-color: transparent;
+}
+
+div.progress{
+    margin: 10px;
+}
+
+#scoreboard {
+    color: antiquewhite;
+    background-color: rgba(26, 24, 24, 0.5);
+    float: left;
+    position: relative;
+    left: 30px;
+    top: 70px;
 }

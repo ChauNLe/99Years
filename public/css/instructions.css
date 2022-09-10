@@ -1,0 +1,21 @@
+:root {
+    --header-color: #CB2424;
+}
+
+header {
+    text-align: center;
+    font-family: bradley hand, cursive, sans-serif;
+    color: var(--header-color);
+}
+
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+
+#instructions{
+    background-color: rgba(26, 24, 24, 0.5);
+    color:antiquewhite;
+    position: relative;
+    top: 150px;
+}
