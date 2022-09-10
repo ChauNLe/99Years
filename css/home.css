@@ -1,12 +1,33 @@
 :root {
     --header-color: #CB2424;
+}
 
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+
+#game-intro {
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+#question-page {
+    background-color: transparent;
+    color: antiquewhite;
 }
 
 header {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: bradley hand, cursive, sans-serif;
     color: var(--header-color);
+}
+
+#continue {
+    color: red;
+    border-style: solid;
+    border-color: red;
+    background-color: transparent;
 }
 
 #no-button {
@@ -17,9 +38,8 @@ header {
 }
 
 #yes-button {
-    color: green;
+    color: lightgreen;
     border-style: solid;
-    border-color: green;
+    border-color: lightgreen;
     background-color: transparent;
 }
-
