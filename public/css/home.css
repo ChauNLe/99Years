@@ -48,10 +48,6 @@ header {
     background-color: transparent;
 }
 
-div.progress{
-    margin: 10px;
-}
-
 #scoreboard {
     color: antiquewhite;
     background-color: rgba(26, 24, 24, 0.5);
