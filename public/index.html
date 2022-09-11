@@ -21,6 +21,7 @@ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 
 <!--CSS and JS-->
 <link rel="stylesheet" href="./css/home.css">
+<script src="./js/data.js"></script>
 <script src="./js/script.js"></script>
 
 </head>
@@ -44,7 +45,7 @@ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       <div class="card-body">
         <p>Environment</p>
         <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-environment" role="progressbar" aria-label="enviroment progress-bar-striped" style="width: 25%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20"></div>
+          <div class="progress-bar progress-bar-striped bg-environment" role="progressbar" aria-label="enviroment progress-bar-striped" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20"></div>
         </div>
         <p>Quality of Life</p>
         <div class="progress">
@@ -52,17 +53,18 @@ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         </div>
         <p>Economy</p>
         <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-economy" role="progressbar" aria-label="economy progress-bar-striped" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20"></div>
+          <div class="progress-bar progress-bar-striped bg-economy" role="progressbar" aria-label="economy progress-bar-striped" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20"></div>
         </div>
         <p>Health</p>
         <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-health" role="progressbar" aria-label="health progress-bar-striped" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20"></div>
+          <div class="progress-bar progress-bar-striped bg-health" role="progressbar" aria-label="health progress-bar-striped" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="20"></div>
         </div>
       </div>
     </div>
 
     <div id = "game-intro" class="card text-center col-6 mx-auto">
       <div class="card-body">
+        <p class="card-text">Welcome!</p>
         <p class="card-text">You have been elected as the king of Narnia.</p>
         <p class="card-text">Now you will have to handle and make decisions regarding environmental issues presented in your kingdom.</p>
         <p class="card-text">The kingdom will either live or die in your hands!</p>
@@ -78,7 +80,7 @@ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
        </div>
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <p id = "questions" class="card-text"></p>
         <button id = "no-button" type="button" class="btn btn-primary btn-lg">No</button>
          <button id = "yes-button" type="button" class="btn btn-secondary btn-lg">Yes</button>
        </div>
