@@ -21,6 +21,13 @@ body {
     top: 100px;
 }
 
+#ending-page {
+    background-color: rgba(26, 24, 24, 0.5);
+    color:antiquewhite;
+    position: relative;
+    top: 100px;
+}
+
 header {
     text-align: center;
     font-family: bradley hand, cursive, sans-serif;
@@ -45,6 +52,13 @@ header {
     color: lightgreen;
     border-style: solid;
     border-color: lightgreen;
+    background-color: transparent;
+}
+
+#play-again {
+    color: red;
+    border-style: solid;
+    border-color: red;
     background-color: transparent;
 }
 

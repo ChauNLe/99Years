@@ -46,25 +46,13 @@ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         <div class ="card-title">Scoreboard</div>
         <p>Environment: </p>
         <p id = "environment-score"></p>
-        <!-- div class="progress">
-          <div id = "Environment" class="progress-bar progress-bar-striped bg-environment" role="progressbar" aria-label="enviroment progress-bar-striped" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-        </div> -->
-        <p>Quality of Life: </p>
-        <p id = "quality-score"></p>
-        <!-- <div class="progress">
-          <div id = "quality-of-life" class="progress-bar progress-bar-striped bg-quality-of-life" role="progressbar" aria-label="quality of life progress-bar-striped" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-        </div> -->
-        <p>Economy: </p>
-        <p id = "economy-score"></p>
-        <!-- div class="progress">
-          <div id = "economy" class="progress-bar progress-bar-striped bg-economy" role="progressbar" aria-label="economy progress-bar-striped" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-        </div> -->
         <p>Health: </p> 
         <p id = "health-score"></p>
-        <!-- <div class="progress">
-          <div id = "health" class="progress-bar progress-bar-striped bg-health" role="progressbar" aria-label="health progress-bar-striped" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-        </div> -->
-      </div>
+        <p>Quality of Life: </p>
+        <p id = "quality-score"></p>
+        <p>Economy: </p>
+        <p id = "economy-score"></p>
+    </div>
     </div>
 
     <div id = "game-intro" class="card text-center col-6 mx-auto">
@@ -77,7 +65,6 @@ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         <button id = "continue" type="button" class="btn btn-primary btn-lg">Continue</button>
       </div>
     </div>
-
     
     <div id = "question-page" class="card text-center d-none col-6 mx-auto">
       <div class="card-header">
@@ -90,7 +77,15 @@ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
          <button id = "yes-button" data-somehing="" type="button" class="btn btn-secondary btn-lg">Yes</button>
        </div>
     </div>
-  
 
+    <div id = "ending-page" class="card text-center col-6 mx-auto d-none">
+      <div class="card-body">
+        <p id = "results" class="card-text"></p>
+        <p class="card-text">Your decisions have led to a disaster!</p>
+        <p class="card-text">Narnia no longer exists because of you!</p>
+        <button id = "play-again" type="button" class="btn btn-primary btn-lg">Play Again!</button>
+      </div>
+    </div>
+  
 </body>
 </html>
