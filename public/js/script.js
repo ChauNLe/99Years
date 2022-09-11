@@ -94,7 +94,7 @@ class App{
                 //alert(this.detail[i]+" factor is too low. Your beloved Earth is dying. Your overall score is "+ this.user_score);
                 this.endingPage.classList.remove('d-none');
                 this.questionCard.classList.add('d-none');
-                this.endingResult.innerText = (this.detail[i]+" factor is too low. Your beloved Earth is dying. Your overall score is "+ this.user_score);
+                this.endingResult.innerText = ("Our "+this.detail[i]+" factor is too low. Your beloved Earth is dying. Your overall score is "+ this.user_score+".");
                 this.isContinue = false;
                 break;
             }
@@ -115,7 +115,7 @@ class App{
                 //alert(this.detail[i]+" factor is too low. Your beloved Earth is dying. Your overall score is "+ this.user_score);
                 this.endingPage.classList.remove('d-none');
                 this.questionCard.classList.add('d-none');
-                this.endingResult.innerText = (this.detail[i]+" factor is too low. Your beloved Earth is dying. Your overall score is "+ this.user_score);                this.isContinue = false;
+                this.endingResult.innerText = ("Our "+this.detail[i]+" factor is too low. Your beloved Earth is dying. Your overall score is "+ this.user_score+".");                this.isContinue = false;
                 this.isContinue = false;
                 break;
             }
